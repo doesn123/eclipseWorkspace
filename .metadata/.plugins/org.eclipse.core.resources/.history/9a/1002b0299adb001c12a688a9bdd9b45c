@@ -1,0 +1,53 @@
+import java.util.Random;
+
+public class Main {
+	
+	static char[] sticking = {'R', 'L','r','l'};
+	static Random r = new Random();
+	static int oldRanNum = r.nextInt(sticking.length);
+	static int newRanNum = r.nextInt(sticking.length);
+
+	public static void main(String[] args) {
+//		reverse();
+		//random();
+		numBeats(15);
+		DaysOfWeek d = DaysOfWeek.FRIDAY;
+		if(d == DaysOfWeek.FRIDAY) {
+			System.out.println("it's Friday!!");
+		} 
+		
+	
+	}
+
+	private static void numBeats(int numBeats) {
+		System.out.println("You chose a: " + numBeats + " beat phrase");
+	}
+	
+	
+	
+//	public static void random() {
+//		int x = 0; 
+//		do {
+//			System.out.println(oldRanNum); //what if I don't want to print the variable, I can't take away the System.out.println();
+//		} while(oldRanNum == newRanNum);
+//		System.out.println("ran num = " + newRanNum);
+//		oldRanNum = newRanNum;
+//		x++;
+//	
+//	}
+}
+
+//	public static void reverse() {
+//		for(int i = sticking.length - 1; i >= 0; i--) {
+//			do {
+//				
+//			}
+//		}
+//	}
+
+
+
+
+	
+
+

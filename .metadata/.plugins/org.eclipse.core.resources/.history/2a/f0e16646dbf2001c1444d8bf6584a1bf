@@ -1,0 +1,8 @@
+
+public abstract class Animal {
+	public abstract void eat();
+	public abstract void printName() {
+		System.out.println("animal's name is ...");
+	}
+
+}

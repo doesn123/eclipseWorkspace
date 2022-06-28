@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Calculate calc = new Calculate();
+		int firstInput = calc.getUserInput();
+		System.out.println(firstInput);
+
+	}
+
+}

@@ -1,0 +1,25 @@
+public class reverseIt {
+	
+
+	public static void main(String[] args) {
+		System.out.println(reverse("Hello, my name is George Hadow and today I'm going to ask out dear Selena"));
+		
+}
+	
+	public static String reverse(String s) {
+	char[] letters = new char[s.length()];
+	for(int i = s.length() - 1; i >= 0; i--) {
+		System.out.println(s.charAt(i));
+	}
+	return s;
+	}
+}	
+	
+
+			
+	
+		
+	
+
+
+	 

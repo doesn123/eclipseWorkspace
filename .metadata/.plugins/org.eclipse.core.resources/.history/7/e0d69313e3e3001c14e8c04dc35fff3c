@@ -1,0 +1,20 @@
+
+public class Main {
+
+	int height;
+	int speed;
+	int gear;
+	
+	public static void main(String[] args) {
+		MountainBike m = new MountainBike();
+
+	}
+	
+	public MountainBike(int startHeight, int startSpeed, int startGear) {
+		height = startHeight;
+		speed = startSpeed;
+		gear = startGear;
+		
+	}
+
+}

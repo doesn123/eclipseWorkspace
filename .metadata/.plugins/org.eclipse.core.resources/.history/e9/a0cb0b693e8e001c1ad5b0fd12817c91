@@ -1,0 +1,21 @@
+package headFirst;
+
+public class Animal {
+	
+	public static String iamDog(){
+		return "I am dog";
+	}
+	
+	public static void doStuff() {
+		
+		int a = 4;
+		if(a==4) {
+			System.out.println("a =" + "dfg");
+		} else {
+			System.out.println("a doesn't equal 4");
+		} 
+
+		
+	}
+
+}

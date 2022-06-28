@@ -1,0 +1,11 @@
+
+public class learnJava {
+
+	public static void main(String[] args) {
+		String name = "George";
+		system.out.println(name.toLowerCase());
+			
+
+	}
+
+}

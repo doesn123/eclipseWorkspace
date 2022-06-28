@@ -1,0 +1,9 @@
+package headFirst;
+
+public class Animal {
+	
+	public static String iamDog(){
+		return "I am dog";
+	}
+
+}

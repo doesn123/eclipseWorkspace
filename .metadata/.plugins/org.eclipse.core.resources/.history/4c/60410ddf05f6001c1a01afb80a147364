@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.function.ToDoubleBiFunction;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		Main m = new Main();
+		m.showMenu();
+		
+		m.addItem(scan.nextLine());
+		m.printToDoList();
+	
+		
+
+	}
+	ArrayList<String>toDoList  = new ArrayList<>();
+	
+	void addItem(String newItem) {
+		for(String newItem: toDoList) {
+		toDoList.add(newItem);
+		}
+	}
+	
+	void showMenu() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("(A)dd new item");
+		System.out.println("(L)ist to do list");
+		
+		char choice = scan.nextLine().charAt(0);
+		switch(choice) {
+		case 'a':
+			System.out.println("choose a");
+			break;
+		case 'l':
+			printToDoList();
+		}
+		System.out.println("add new item");
+		
+	}
+	
+	void printToDoList() {
+		for(String item:toDoList) {
+			System.out.println(item);
+		}
+	}
+	
+
+}

@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.function.ToDoubleBiFunction;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		Main m = new Main();
+		System.out.println("add new item");
+		m.addItem(scan.nextLine());
+		
+	
+		
+
+	}
+	ArrayList<String>toDoList  = new ArrayList<>();
+	
+	public void addItem(String newItem) {
+		toDoList.add(newItem);
+	}
+
+}

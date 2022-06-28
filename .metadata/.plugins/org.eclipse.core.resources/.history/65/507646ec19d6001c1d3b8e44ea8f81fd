@@ -1,0 +1,15 @@
+package divideByZero;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		divideByZero(3);
+	
+		class divideByZero(int a) {
+			System.out.println(a * 3);
+		}
+
+	}
+
+}

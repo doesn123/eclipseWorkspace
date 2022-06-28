@@ -1,0 +1,11 @@
+package dogConstructor2;
+
+public class dogC {
+	String name;
+	int age;
+	
+	dogC() {
+		this.name;
+		this.age;
+	}
+}

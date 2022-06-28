@@ -1,0 +1,28 @@
+
+public class Shirts {
+	private static String colour;
+	private static char size;
+	
+	Shirts() {
+		System.out.println("I'm the constructor");
+	}
+	
+	public static void putOn() {
+		System.out.println("shirt is on");
+		
+
+		
+	}
+		
+	public static void takeOff() {
+		System.out.println("shirt is off");
+	}
+	
+	public static void setColour(String setColour) {
+		colour = newColour
+	}
+	
+	public static void setSize(String newSize) {
+		size = newSize;
+	}
+}

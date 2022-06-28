@@ -1,0 +1,8 @@
+
+public class Bicycle {
+	
+	int height;
+	int speed;
+	int gear;
+	boolean brakeOn;
+}

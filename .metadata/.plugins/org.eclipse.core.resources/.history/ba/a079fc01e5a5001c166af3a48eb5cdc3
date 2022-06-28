@@ -1,0 +1,23 @@
+import java.time.LocalTime;
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+
+
+public class Test {
+
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(System.in);
+		double start = LocalTime.now().toNanoOfDay();
+		System.out.println("go!");
+		String text = kb.nextLine();
+		double end = LocalTime.now().toNanoOfDay();
+		System.out.println(text);
+		double time = end - start;
+		System.out.println(time);
+		System.out.println(end);
+	}
+}
+
+
+
+

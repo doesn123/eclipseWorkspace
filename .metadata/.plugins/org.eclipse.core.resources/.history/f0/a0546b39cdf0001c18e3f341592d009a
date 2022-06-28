@@ -1,0 +1,25 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+	 BeatSequence b = new BeatSequence();
+	}
+
+}
+
+
+class Airplane{
+	int Speed;
+	
+	public int getSpeed() {
+		return speed;
+	}
+	
+	public void setSpeed(int speed) {
+		this.Speed = speed;
+	}
+	
+	public Airplane() {
+		
+	}
+}

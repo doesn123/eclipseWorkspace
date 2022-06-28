@@ -1,0 +1,21 @@
+package findDuplicates;
+
+public class Duplicates {
+
+	public static void main(String[] args) {
+		String duplicates = "";
+		String sentence = "This is my String, let's see how many duplicate letters we have!";
+		String characters = "";
+		
+		
+		for(int i = 0; i < sentence.length(); i++) {
+			String current = Character.toString(sentence.charAt(i));
+			characters += current;
+			if(characters.contains(current)) {
+				duplicates += current;
+			}
+		}
+	}
+}
+
+

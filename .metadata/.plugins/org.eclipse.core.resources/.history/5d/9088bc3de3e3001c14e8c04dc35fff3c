@@ -1,0 +1,25 @@
+
+public class Main {
+
+	int height;
+	int speed;
+	int gear;
+	
+	public static void main(String[] args) {
+		MountainBike m = new MountainBike(172,4,1);
+
+	}
+	
+	public void setGear(int newValue) {
+		gear = newValue;
+	}
+	
+	public void setSpeed(int increment) {
+		speed += increment;
+	}
+	
+	public void applyBrake(int decrement) {
+		speed -= decrement;
+	} 
+
+}

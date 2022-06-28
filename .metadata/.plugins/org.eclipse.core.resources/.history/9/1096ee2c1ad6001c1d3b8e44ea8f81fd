@@ -1,0 +1,16 @@
+package divideByZero;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		divideByZero(3);
+	}
+		
+		public static void divideByZero(int a) {
+			System.out.println(a / 0);
+		}
+
+	}
+
+

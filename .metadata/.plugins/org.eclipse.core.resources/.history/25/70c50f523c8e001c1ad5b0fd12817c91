@@ -1,0 +1,13 @@
+package headFirst;
+
+public class LearningJavawitHF {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		addExclamationPoint("blahblah");
+
+	}
+public static void addExclamationPoint(String s) {
+	System.out.println(s + "!");
+}
+}

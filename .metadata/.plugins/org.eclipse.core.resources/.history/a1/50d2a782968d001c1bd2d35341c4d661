@@ -1,0 +1,15 @@
+import java.awt.Point;
+
+public class learnJava
+{
+
+
+	 public static void main(String[] args)
+	 {
+		 
+System.out.println(Byte.MAX_VALUE);
+Point p1 = new Point(2,5) 
+	
+	 }
+	 
+}

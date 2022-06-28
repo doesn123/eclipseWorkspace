@@ -1,0 +1,15 @@
+package strings;
+
+import java.util.Scanner;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		String adjective = "sat down";
+		String noun = "dinosaur";
+	System.out.println("my sis " + adjective + "over my " + noun);
+	
+	
+	}
+
+}

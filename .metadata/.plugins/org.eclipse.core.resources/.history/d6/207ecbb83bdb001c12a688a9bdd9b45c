@@ -1,0 +1,20 @@
+import java.util.Random;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Random r = new Random();
+		char[] sticking = {'R', 'L','r','l'};
+		for(int i = sticking.length - 1; i >= 0; i--) {
+			System.out.print(sticking[i]);
+		}
+		
+
+	}
+}
+
+
+
+	
+
+

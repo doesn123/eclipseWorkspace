@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class myGrades {
+
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("please enter a grade: ");
+		
+		int grade1 = scan.nextInt();
+		System.out.println(grade1);
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Calculate {
+	Scanner scan = new Scanner(System.in);
+	
+	int getUserInput() {
+		System.out.println("Enter first int");
+		number1 = scan.nextInt();
+		return a;
+	}
+}

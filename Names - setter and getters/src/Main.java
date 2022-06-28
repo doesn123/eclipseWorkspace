@@ -1,0 +1,24 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person George = new Person();
+		George.setName("George");
+		George.setAge(30);
+		System.out.println("Hi, my name is " + George.getName() + " and I am " + George.getAge());
+		
+		System.out.println(George.age);
+		
+		int a = 5;
+		change(a);
+		System.out.println(a);
+		
+		
+
+	}
+	
+	static void change(int i) {
+		i++;		
+	}
+
+}

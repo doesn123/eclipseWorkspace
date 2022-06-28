@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Partay {
+
+	public static void main(String[] args) {
+		Scanner myScan = new Scanner(System.in);
+		System.out.println("input something");
+		String myVar = scan.nextLine();
+
+	}
+
+}

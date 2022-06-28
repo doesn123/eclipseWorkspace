@@ -1,0 +1,12 @@
+
+public class MountainBike extends Bicycle{
+	
+	public int seatHeight;
+	
+	public MountainBike(int startHeight, int startSpeed, int startGear) {
+		height = startHeight;
+		speed = startSpeed;
+		gear = startGear;
+		
+	}
+}

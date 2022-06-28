@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> ar = new ArrayList<>();
+		LinkedList<String> ll = new LinkedList<>();
+		
+		ar.add(3);
+
+	}
+
+}

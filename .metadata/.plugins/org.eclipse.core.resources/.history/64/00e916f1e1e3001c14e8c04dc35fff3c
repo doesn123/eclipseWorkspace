@@ -1,0 +1,17 @@
+
+public class Main {
+
+	int startHeight;
+	int startSpeed;
+	int startGear;
+	
+	public static void main(String[] args) {
+		MountainBike m = new MountainBike();
+
+	}
+	
+	public MountainBike(int startHeight, int startSpeed, int startGear) {
+		this.startHeight = startHeight;
+	}
+
+}

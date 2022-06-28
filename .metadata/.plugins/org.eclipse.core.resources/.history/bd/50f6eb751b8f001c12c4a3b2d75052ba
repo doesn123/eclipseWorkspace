@@ -1,0 +1,19 @@
+
+public class Shirts {
+	private String = colour;
+	private char = size;
+	
+	public static void putOn() {
+		System.out.println("shirt is on");
+		
+		Shirts() {
+			System.out.println("I'm the constructor");
+		}
+		
+	}
+	
+	
+	public static void takeOff() {
+		System.out.println("shirt is off");
+	}
+}

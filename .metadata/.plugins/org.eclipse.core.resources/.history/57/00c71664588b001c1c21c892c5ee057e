@@ -1,0 +1,7 @@
+
+public class learnJ {
+	public static void main(String[] args)
+{
+		System.out.println(byte.MAX_VALUE);
+}
+}

@@ -1,0 +1,14 @@
+package headFirst;
+
+public class LearningJavawitHF {
+
+	public static void main(String[] args) {
+		Animal a = new Animal();
+		String dog = a.iamDog();
+		System.out.println(dog);
+	arr
+	}
+	
+
+
+}

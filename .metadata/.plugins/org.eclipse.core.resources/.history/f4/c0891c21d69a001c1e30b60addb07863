@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Dice {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Guess the number");
+		
+		int firstGuess = scan.nextInt();
+		
+		System.out.println("Your first guess was " + firstGuess);
+
+	}
+
+}

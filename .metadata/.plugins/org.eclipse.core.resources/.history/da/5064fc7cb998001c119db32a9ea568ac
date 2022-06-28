@@ -1,0 +1,21 @@
+
+public class reverseIt {
+
+	public static void main(String[] args) {
+		String r = reverse("dog");
+	}
+	
+	public static String reverse(String s) {
+		return s;
+		
+			
+	}	
+	
+}
+			
+	
+		
+	
+
+
+	 
