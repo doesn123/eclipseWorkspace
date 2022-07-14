@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="new i"/>
+		<item key="selection" value="name"/>
 		<list key="findhistory">
+			<item value="age"/>
+			<item value="test"/>
 			<item value="new i"/>
 			<item value="newit"/>
 			<item value="scanner"/>
@@ -21,10 +23,9 @@
 			<item value="list"/>
 			<item value="c "/>
 			<item value="private"/>
-			<item value="prefixLetter"/>
-			<item value="max"/>
 		</list>
 		<list key="replacehistory">
+			<item value="name"/>
 			<item value="fullBeatSticking"/>
 			<item value="allStrokes"/>
 			<item value=""/>

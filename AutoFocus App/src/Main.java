@@ -12,15 +12,17 @@ public class Main {
 		m.printToDoList();
 	}
 	
-	ArrayList<String>toDoList  = new ArrayList<>();
+	ToDoList toDoList  = new ToDoList();
 	
 	void addItem() {
-		while(scan.nextLine().charAt(0) != 'e') {
-		toDoList.add(scan.nextLine());
-		
-		}
+		String line = scan.nextLine();
+		if(line.length() != 0) {
+			
+			toDoList.add(line);
+			addItem();
+		} 
 	}
-	
+
 	void showMenu() {
 		System.out.println("(A)dd new item");
 		System.out.println("(L)ist to do list");
@@ -32,13 +34,18 @@ public class Main {
 			System.out.println("add item/s");
 			break;
 		case 'l':
-			printToDoList();
-		}		
+			printToDoList();	
+		case 'e':
+			System.exit(0);
+		}	
 	}
 	
 	void printToDoList() {
+		
 		System.out.println("To do list:");
-		for(String item:toDoList) {
+		for(int i = 0; i < toDoList.size(); i++) {
+			
+			String item = toDoList.get(i);
 			System.out.println(item);
 		}
 	}

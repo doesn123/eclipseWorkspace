@@ -1,9 +1,0 @@
-import java.util.Scanner;
-
-public class Calculate {
-	Scanner scan = new Scanner(System.in);
-	
-	void getUserInput() {
-		int a = scan.nextInt();
-	}
-}
