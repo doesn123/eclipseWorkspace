@@ -6,8 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="name"/>
+		<item key="selection" value="match"/>
 		<list key="findhistory">
+			<item value="match"/>
+			<item value="game"/>
+			<item value="plac"/>
+			<item value="pos"/>
+			<item value="placePosition"/>
+			<item value="ymov"/>
 			<item value="age"/>
 			<item value="test"/>
 			<item value="new i"/>
@@ -17,14 +23,10 @@
 			<item value="for"/>
 			<item value="allStrokes"/>
 			<item value="rans"/>
-			<item value="ra"/>
-			<item value="ranst"/>
-			<item value="frame"/>
-			<item value="list"/>
-			<item value="c "/>
-			<item value="private"/>
 		</list>
 		<list key="replacehistory">
+			<item value="g"/>
+			<item value="placePiece"/>
 			<item value="name"/>
 			<item value="fullBeatSticking"/>
 			<item value="allStrokes"/>

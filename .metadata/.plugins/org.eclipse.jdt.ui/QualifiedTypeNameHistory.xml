@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.Point"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="headFirst.Animal"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="Loops"/>
-    <fullyQualifiedTypeName name="java.awt.dnd.DropTargetDragEvent"/>
-    <fullyQualifiedTypeName name="Permute"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
     <fullyQualifiedTypeName name="java.time.Period"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -45,14 +36,28 @@
     <fullyQualifiedTypeName name="Dog"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.PrimitiveIterator"/>
     <fullyQualifiedTypeName name="javax.print.PrintService"/>
     <fullyQualifiedTypeName name="stiickingApp3.Permute"/>
     <fullyQualifiedTypeName name="Menu"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="reverseIt"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="Test33"/>
+    <fullyQualifiedTypeName name="junit.framework.Test"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.nio.channels.NonWritableChannelException"/>
+    <fullyQualifiedTypeName name="TennisPlayer"/>
+    <fullyQualifiedTypeName name="Account"/>
 </qualifiedTypeNameHistroy>
