@@ -1,13 +1,11 @@
 import java.util.Scanner;
 
 public class Menu {
+	static Scanner scan = new Scanner(System.in);
 	public void mainMenu() {
-		
-		Scanner scan = new Scanner(System.in);
 
 		System.out.println("(S)tart game");
 		System.out.println("Play again");
-		System.out.println("Choose players");
 		System.out.println("(E)xit app");
 		
 		char choice = scan.next().charAt(0);
@@ -20,4 +18,5 @@ public class Menu {
 			break;			
 		}
 	}
+	
 }

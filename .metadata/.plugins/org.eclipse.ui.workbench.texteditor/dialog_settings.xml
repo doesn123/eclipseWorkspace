@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="match"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="anov"/>
 			<item value="match"/>
 			<item value="game"/>
 			<item value="plac"/>
@@ -22,15 +23,14 @@
 			<item value="sca"/>
 			<item value="for"/>
 			<item value="allStrokes"/>
-			<item value="rans"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 			<item value="g"/>
 			<item value="placePiece"/>
 			<item value="name"/>
 			<item value="fullBeatSticking"/>
 			<item value="allStrokes"/>
-			<item value=""/>
 			<item value="this"/>
 			<item value="characters"/>
 			<item value="input"/>
