@@ -1,15 +1,19 @@
+import java.util.Scanner;
+
 public class PlayerChooser {
 
     private TennisPlayer[] playerList;
-
-	public PlayerChooser() {
-        this.playerList = [
-            new Player('nameA', 22, 'Male', 50),
-            new Player('nameB', 33, 'Male', 55),
-            new Player('nameC', 32, 'Male', 23),
-            new Player('nameD', 25, 'Female', 74)
-        ]
-    }
+    Scanner scan = new Scanner(System.in);
+    
+//	public PlayerChooser() {
+//        this.playerList = [
+//            new Player("nameA", 22, "Male", 50);
+//            new Player("nameB", 33, "Male", 55);
+//            new Player("nameC", 32, "Male", 23);
+//            new Player("nameD", 25, "Female", 74);
+//            //the above is 'hard coding' - usually want to avoid this
+//        ];
+//    }
 
 
     public TennisPlayer selectPlayer {
@@ -20,7 +24,7 @@ public class PlayerChooser {
         }
         char choice = scan.nextLine().charAt(0);
 		switch(choice) {
-            this.playerList[choice;]
+            this.playerList[choice];
 
 
 		// case 'a': 
@@ -32,4 +36,15 @@ public class PlayerChooser {
 					
 		}
     }
+    
+	public TennisPlayer choosePlayer() {
+		
+        this.playerList = {
+                           new TennisPlayer("nameA", 22, "Male", 50),
+                           new TennisPlayer("nameB", 33, "Male", 55),
+                           new TennisPlayer("nameC", 32, "Male", 23),
+                           new TennisPlayer("nameD", 25, "Female", 74);
+                           //the above is 'hard coding' - usually want to avoid this
+						  }
+	}
 }

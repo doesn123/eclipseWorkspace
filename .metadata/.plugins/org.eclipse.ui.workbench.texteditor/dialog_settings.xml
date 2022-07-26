@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="TennisPlayer"/>
 		<list key="findhistory">
+			<item value="Player"/>
+			<item value="&apos;"/>
 			<item value="anov"/>
 			<item value="match"/>
 			<item value="game"/>
@@ -21,10 +23,10 @@
 			<item value="newit"/>
 			<item value="scanner"/>
 			<item value="sca"/>
-			<item value="for"/>
-			<item value="allStrokes"/>
 		</list>
 		<list key="replacehistory">
+			<item value="TennisPlayer"/>
+			<item value="&quot;"/>
 			<item value=""/>
 			<item value="g"/>
 			<item value="placePiece"/>
@@ -38,7 +40,6 @@
 			<item value="activitySeated"/>
 			<item value="Stretch"/>
 			<item value="remaining"/>
-			<item value="float"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
