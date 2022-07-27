@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="TennisPlayer"/>
+		<item key="selection" value="userPl"/>
 		<list key="findhistory">
+			<item value="userpl"/>
+			<item value="ntln(&quot;choose your player...&quot;)"/>
+			<item value="nisPlayer userPlayer = playerChooser.choosePlayer();&#x09;"/>
+			<item value="return the player"/>
 			<item value="Player"/>
 			<item value="&apos;"/>
 			<item value="anov"/>
@@ -19,12 +23,9 @@
 			<item value="ymov"/>
 			<item value="age"/>
 			<item value="test"/>
-			<item value="new i"/>
-			<item value="newit"/>
-			<item value="scanner"/>
-			<item value="sca"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Monkey"/>
 			<item value="TennisPlayer"/>
 			<item value="&quot;"/>
 			<item value=""/>
@@ -39,7 +40,6 @@
 			<item value="current"/>
 			<item value="activitySeated"/>
 			<item value="Stretch"/>
-			<item value="remaining"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
