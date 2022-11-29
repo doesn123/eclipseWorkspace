@@ -6,13 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="userPl"/>
+		<item key="selection" value="Player"/>
 		<list key="findhistory">
+			<item value="TennisPlayer"/>
+			<item value="Player"/>
 			<item value="userpl"/>
 			<item value="ntln(&quot;choose your player...&quot;)"/>
 			<item value="nisPlayer userPlayer = playerChooser.choosePlayer();&#x09;"/>
 			<item value="return the player"/>
-			<item value="Player"/>
 			<item value="&apos;"/>
 			<item value="anov"/>
 			<item value="match"/>
@@ -22,11 +23,11 @@
 			<item value="placePosition"/>
 			<item value="ymov"/>
 			<item value="age"/>
-			<item value="test"/>
 		</list>
 		<list key="replacehistory">
-			<item value="Monkey"/>
+			<item value="Player"/>
 			<item value="TennisPlayer"/>
+			<item value="Monkey"/>
 			<item value="&quot;"/>
 			<item value=""/>
 			<item value="g"/>
@@ -39,7 +40,6 @@
 			<item value="input"/>
 			<item value="current"/>
 			<item value="activitySeated"/>
-			<item value="Stretch"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
@@ -48,5 +48,9 @@
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="447"/>
+		<item key="DIALOG_Y_ORIGIN" value="260"/>
 	</section>
 </section>

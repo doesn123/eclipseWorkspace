@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TennisPlayer {
+public class Player {
 	
 	private String name;
 //	enum gender = MALE, FEMALE;
@@ -12,7 +12,7 @@ public class TennisPlayer {
 	
 	int chanceOfFirstServeIn;
 	
-	public TennisPlayer(String name, int age, String gender, int chanceOfFirstServeIn) {
+	public Player(String name, int age, String gender, int chanceOfFirstServeIn) {
 		this.name = name;
 		this.age = age;
 		this.gender = gender;

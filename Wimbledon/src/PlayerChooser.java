@@ -1,24 +1,28 @@
+import java.util.Scanner;
+
 public class PlayerChooser {
 
-    private TennisPlayer[] playerList;
+	Player player1 = new Player("nameA", 22, "Male", 50);
+	Player player2 = new Player("nameB", 52, "Female", 50);
+	
+    private Player[] playerList = {player1, player2};
     private Scanner scan;
+    
 
 	public PlayerChooser(Scanner scanner) {
         this.playerList = [
-            new Player("nameA", 22, "Male", 50);
-            new Player("nameB", 33, "Male", 55);
-            new Player("nameC", 32, "Male", 23);
-            new Player("nameD", 25, "Female", 74);
+//            new Player("nameA", 22, "Male", 50);
+//            new Player("nameB", 33, "Male", 55);
         ];
 
         this.scan = scanner;
     }
 
 
-    public TennisPlayer selectPlayer {
+    public Player selectPlayer() {
         System.out.println("Choose a player...");
         for(var i = 0; i < this.playerList.length; i++) {
-            System.out.println(i + this.playerList[i]);
+            System.out.println(this.playerList[i]);
         }
         char choice = scan.nextLine().charAt(0);
 		switch(choice) {

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
-    <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
-    <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="Friends"/>
     <fullyQualifiedTypeName name="Friend"/>
     <fullyQualifiedTypeName name="Bicycle"/>
@@ -50,7 +47,6 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="javax.annotation.processing.Filer"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="TennisPlayer"/>
     <fullyQualifiedTypeName name="ThisIF"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Readable"/>
+    <fullyQualifiedTypeName name="ReverseIt"/>
+    <fullyQualifiedTypeName name="SimpleDotCom"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

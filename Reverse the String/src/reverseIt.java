@@ -1,26 +1,30 @@
-public class reverseIt {
-	
+public class ReverseIt {	
 
 	public static void main(String[] args) {
-		String r = reverse("My name is George");
-		System.out.println(r);
+		ReverseIt rI = new ReverseIt();
+		String r = "Hello there my friend";
+		System.out.println(rI.reverse(r));
+		
 	}
-	
-	public static String reverse(String s) {
-		char letters[] = new char[s.length()];
-		int index = 0;
-		for(int i = s.length()-1; i >= 0; i--) {
-			letters[index] = s.charAt(i);
+
+	private String reverse(String string) {
+		char[] letters = new char[string.length()];
+			int index = 0;
+		for(int i = string.length()-1; i >= 0; i--) {
+			letters[index] = string.charAt(i);
 			index++;
 		}
 		
-		String reverse = "";
-		for(int i = 0; i < s.length(); i++) {
-			reverse += letters[i];
+		String reversedString = "";
+		for(int i = 0; i < string.length(); i++) {
+			reversedString += letters[i];
 		}
-		return reverse;
+		
+		return reversedString;
+	}
+}
 
-	}}
+
 
 	
 

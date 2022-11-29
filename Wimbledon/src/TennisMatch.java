@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class TennisMatch {
-	private TennisPlayer player1;
-	private TennisPlayer player2;
+	private Player player1;
+	private Player player2;
 	private Scanner scan;
 
 
-	public TennisMatch(TennisPlayer player1, TennisPlayer player2, Scanner scan) {
+	public TennisMatch(Player player1, Player player2, Scanner scan) {
 		this.player1 = player1;
 		this.player2 = player2;
 		this.scan = scan;

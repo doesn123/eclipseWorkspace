@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
 
@@ -9,13 +10,11 @@ public class Main {
 		System.out.println("Wimbledon game");
 		System.out.println("--------------");
 		System.out.println("choose your player...");
-		TennisPlayer userPlayer = playerChooser.selectPlayer();
+		Player userPlayer = playerChooser.selectPlayer();
 		System.out.println("choose your opponent...");
-		TennisPlayer opponent = playerChooser.selectPlayer();
+		Player opponent = playerChooser.selectPlayer();
 
-		// TennisPlayer player1 = new TennisPlayer("Novak Djokovic", 35, "male", 71);
-		// TennisPlayer player2 = new TennisPlayer("Nick Kygrios", 26, "male", 65);
-		TennisMatch tennisMatch = new TennisMatch(userPlayer, opponent);
+		TennisMatch tennisMatch = new TennisMatch(userPlayer, opponent, scan);
 
 
 		// player1.choosePlayer();
